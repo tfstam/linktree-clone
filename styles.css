@@ -9,11 +9,17 @@
 
 html, body {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
-  background-color: rgba(187, 153, 221, .08);
+  background: rgba(187, 153, 221, .08);
   color: #BB99DD;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -24,6 +30,7 @@ img {
 .container {
   width: 90%;
   max-width: 414px;
+  height: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -32,7 +39,7 @@ img {
 }
 
 header {
-  margin: 7.5rem 0 2rem 0;
+  margin: 3.75rem 0 2rem 0;
   text-align: center;
   font-weight: 300;
 }
@@ -76,6 +83,10 @@ header img {
 .links li a.link:hover {
   background: #BB99DD;
   color: white;
+}
+
+.social-links {
+  margin-bottom: 3rem;
 }
 
 .social-links a {
